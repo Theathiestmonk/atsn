@@ -36,7 +36,7 @@ const Shipping: React.FC = () => {
               Last updated: January 2025
             </p>
 
-            {/* Digital Service Notice */}
+            {/* Razorpay Shipping Notice */}
             <div className="bg-gradient-to-r from-[#9E005C]/10 to-[#FF4D94]/10 rounded-xl p-6 mb-8 border border-[#9E005C]/20">
               <div className="flex items-center space-x-3 mb-4">
                 <Package className="w-6 h-6 text-[#9E005C]" />
@@ -44,7 +44,7 @@ const Shipping: React.FC = () => {
               </div>
               <p className="text-[#2E2E2E]/80">
                 atsn ai provides digital AI agent services that are delivered instantly upon subscription. 
-                No physical products are shipped as our services are cloud-based and accessible immediately.
+                All payments are processed securely through Razorpay with immediate digital delivery.
               </p>
             </div>
 
@@ -100,8 +100,13 @@ const Shipping: React.FC = () => {
                   </div>
                 </div>
                 <p className="mt-4 text-sm text-[#2E2E2E]/70">
-                  <strong>Total delivery time:</strong> Typically within 5-10 minutes of successful payment
+                  <strong>Total delivery time:</strong> Typically within 5-10 minutes of successful Razorpay payment confirmation
                 </p>
+                <div className="mt-4 bg-yellow-50 border border-yellow-200 rounded-lg p-3">
+                  <p className="text-sm text-yellow-800">
+                    <strong>Note:</strong> For Razorpay compliance, digital services are considered "delivered" immediately upon payment confirmation and email notification.
+                  </p>
+                </div>
               </div>
 
               <h2 className="text-2xl font-semibold mb-4 text-[#2E2E2E] flex items-center space-x-2">
@@ -237,7 +242,58 @@ const Shipping: React.FC = () => {
                 </div>
               </div>
 
-              <h2 className="text-2xl font-semibold mb-4 text-[#2E2E2E]">8. Terms and Conditions</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-[#2E2E2E]">8. Razorpay Shipping Information</h2>
+              <div className="mb-6 text-[#2E2E2E]/80 space-y-4">
+                <p>
+                  For Razorpay payment processing compliance, the following shipping information applies:
+                </p>
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h3 className="font-semibold text-blue-800 mb-3">Digital Service Shipping Details</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Service Type:</p>
+                      <p className="text-blue-600">Digital AI Agent Services</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Delivery Method:</p>
+                      <p className="text-blue-600">Instant Digital Delivery</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Shipping Address:</p>
+                      <p className="text-blue-600">Email Address (Digital)</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Delivery Time:</p>
+                      <p className="text-blue-600">Immediate (0-10 minutes)</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Tracking:</p>
+                      <p className="text-blue-600">Email Confirmation</p>
+                    </div>
+                    <div>
+                      <p className="font-semibold text-blue-700 mb-1">Return Policy:</p>
+                      <p className="text-blue-600">30-day money-back guarantee</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                  <div className="flex items-start space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
+                    <div>
+                      <h3 className="font-semibold text-green-800 mb-1">Razorpay Compliance</h3>
+                      <ul className="text-green-700 text-sm space-y-1">
+                        <li>• Digital services require no physical shipping</li>
+                        <li>• Service delivery is immediate upon payment confirmation</li>
+                        <li>• Customer receives access credentials via email</li>
+                        <li>• All transactions are processed securely through Razorpay</li>
+                        <li>• Refund policy complies with Razorpay guidelines</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="text-2xl font-semibold mb-4 text-[#2E2E2E]">9. Terms and Conditions</h2>
               <p className="mb-6 text-[#2E2E2E]/80">
                 This shipping policy is subject to our Terms and Conditions. 
                 By using our services, you agree to these policies. For complete terms, 
