@@ -549,7 +549,7 @@ const LandingPage: React.FC = () => {
                 <li><a href="#" className="text-white/70 hover:text-[#FF4D94] transition-colors">About</a></li>
                 <li><a href="#" className="text-white/70 hover:text-[#FF4D94] transition-colors">Blog</a></li>
                 <li><a href="#" className="text-white/70 hover:text-[#FF4D94] transition-colors">Careers</a></li>
-                <li><a href="#" className="text-white/70 hover:text-[#FF4D94] transition-colors">Contact</a></li>
+                <li><Link to="/contact" className="text-white/70 hover:text-[#FF4D94] transition-colors">Contact</Link></li>
               </ul>
             </div>
             
@@ -571,6 +571,8 @@ const LandingPage: React.FC = () => {
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="text-white/50 hover:text-[#FF4D94] text-sm transition-colors">Privacy</Link>
               <Link to="/terms" className="text-white/50 hover:text-[#FF4D94] text-sm transition-colors">Terms</Link>
+              <Link to="/cancellation-refunds" className="text-white/50 hover:text-[#FF4D94] text-sm transition-colors">Cancellation & Refunds</Link>
+              <Link to="/shipping" className="text-white/50 hover:text-[#FF4D94] text-sm transition-colors">Shipping</Link>
               <a href="#" className="text-white/50 hover:text-[#FF4D94] text-sm transition-colors">Cookies</a>
             </div>
           </div>
