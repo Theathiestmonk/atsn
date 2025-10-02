@@ -95,13 +95,30 @@ const TermsAndConditions: React.FC = () => {
               </p>
 
               <h2 className="text-2xl font-semibold mb-4 text-[#2E2E2E]">9. Contact Information</h2>
-              <p className="mb-6 text-[#2E2E2E]/80">
-                If you have any questions about these Terms and Conditions, please contact us at:
-                <br />
-                Email: legal@atsnai.com
-                <br />
-                Website: <a href="https://emily.atsnai.com" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">emily.atsnai.com</a>
-              </p>
+              <div className="mb-6 text-[#2E2E2E]/80">
+                <p className="mb-4">
+                  If you have any questions about these Terms and Conditions, please contact us at:
+                </p>
+                <div className="bg-[#F6F6F6] rounded-lg p-4">
+                  <p className="mb-2">
+                    <strong>Helpdesk Phone:</strong> <a href="tel:+919998198868" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">+91 99981 98868</a>
+                  </p>
+                  <p className="mb-2">
+                    <strong>Helpdesk Email:</strong> <a href="mailto:services@atsnai.com" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">services@atsnai.com</a>
+                  </p>
+                  <p className="mb-2">
+                    <strong>Legal Email:</strong> legal@atsnai.com
+                  </p>
+                  <p>
+                    <strong>Website:</strong> <a href="https://emily.atsnai.com" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">emily.atsnai.com</a>
+                  </p>
+                </div>
+                <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <p className="text-blue-800 text-sm">
+                    <strong>For any issues in utilizing our services you may contact our helpdesk on 9998198868 or services@atsnai.com</strong>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

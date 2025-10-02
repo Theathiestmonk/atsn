@@ -272,7 +272,13 @@ const PrivacyPolicy: React.FC = () => {
                 </p>
                 <div className="bg-[#F6F6F6] rounded-lg p-4">
                   <p className="mb-2">
-                    <strong>Email:</strong> privacy@atsnai.com
+                    <strong>Helpdesk Phone:</strong> <a href="tel:+919998198868" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">+91 99981 98868</a>
+                  </p>
+                  <p className="mb-2">
+                    <strong>Helpdesk Email:</strong> <a href="mailto:services@atsnai.com" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">services@atsnai.com</a>
+                  </p>
+                  <p className="mb-2">
+                    <strong>Privacy Email:</strong> privacy@atsnai.com
                   </p>
                   <p className="mb-2">
                     <strong>Data Protection Officer:</strong> dpo@atsnai.com
@@ -282,6 +288,11 @@ const PrivacyPolicy: React.FC = () => {
                   </p>
                   <p>
                     <strong>Website:</strong> <a href="https://emily.atsnai.com" className="text-[#9E005C] hover:text-[#FF4D94] transition-colors">emily.atsnai.com</a>
+                  </p>
+                </div>
+                <div className="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <p className="text-blue-800 text-sm">
+                    <strong>For any issues in utilizing our services you may contact our helpdesk on 9998198868 or services@atsnai.com</strong>
                   </p>
                 </div>
               </div>
